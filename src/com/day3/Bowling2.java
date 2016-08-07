@@ -53,8 +53,12 @@ public class Bowling2 {
 
 		}
 
-		for (int i = 0; i < frames.length; i++)
-			System.out.println(frames[i]);
-
+		// Frame Scores: 2 9 7 10 3 5 7 7 9 10
+		String frameOrder = "Frame score: ";
+		for (int i = 0; i < frames.length; i++) {
+			frameOrder += frames[i] + " ";
+			// System.out.println(frames[i]);
+		}
+		System.out.println(frameOrder);
 	}
 }
